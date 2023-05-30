@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;  
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.lists-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: 0 0 10px #ccc;
+  background-color: #c4eabb;
+}
+
+.list {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.list li {
+  cursor: pointer;
+  padding: 4px;
+}
+
+li:hover{
+  color: rgb(209, 96, 20);
+} 
+
+@media (max-width: 600px) {
+  .list {
+    width: 100%;
+  }
+}
+  
